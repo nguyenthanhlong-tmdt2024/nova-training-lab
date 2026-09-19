@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#050706">
+  <meta name="description" content="HYPE Training Lab – Turn It Up.">
+  <title>My HYPE | HYPE Training Lab</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32.png">
+  <link rel="apple-touch-icon" href="assets/images/favicon-180.png">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body data-page="dashboard">
+  <div data-site-header></div>
+  <main>
+
+<section class="dashboard"><aside class="dashboard-sidebar"><div class="dashboard-user"><strong data-user-name></strong><span data-user-id></span><span data-package-name></span></div><nav class="dashboard-nav"><button class="active" data-dashboard-tab="overview">Tổng quan</button><button data-dashboard-tab="classes">Lớp đã đăng ký</button><button data-dashboard-tab="recovery">Recovery</button><button data-dashboard-tab="events">Cộng đồng</button><a href="classes.html">Đăng ký lớp mới</a><button data-logout>Đăng xuất</button></nav></aside><div class="dashboard-main"><div class="dashboard-top"><div><span class="eyebrow">MY HYPE</span><h1 class="en-title">YOUR TRAINING HUB.</h1></div><a class="btn primary" href="classes.html">Đăng ký lớp</a></div><div class="notice" data-activation-warning hidden><strong>Tài khoản chưa được kích hoạt đầy đủ.</strong><p>HYPE cần đối soát email hội viên trước khi hiển thị quyền lợi chính thức.</p></div>
+<section data-dashboard-panel="overview"><div class="metric-grid"><div class="metric"><div class="value">17</div><span>Buổi tập còn lại</span></div><div class="metric"><div class="value">6</div><span>Recovery Credits</span></div><div class="metric"><div class="value" data-booking-count>0</div><span>Lớp đã xác nhận</span></div><div class="metric"><div class="value" data-event-count>0</div><span>Hoạt động cộng đồng</span></div></div><div class="panel-grid"><div class="panel"><div class="panel-head"><h3>Lịch sắp tới</h3></div><div class="data-table-wrap"><table class="data-table"><thead><tr><th>Ngày</th><th>Giờ</th><th>Lớp</th><th>Coach</th><th>Trạng thái</th><th></th></tr></thead><tbody data-my-classes></tbody></table></div></div><div class="panel"><div class="panel-head"><h3>Thông báo HYPE</h3></div><div class="notice-list" data-member-notices></div></div></div></section>
+<section data-dashboard-panel="classes" hidden><div class="panel"><div class="panel-head"><h3>Lớp đã đăng ký</h3></div><div class="data-table-wrap"><table class="data-table"><thead><tr><th>Ngày</th><th>Giờ</th><th>Lớp</th><th>Coach</th><th>Trạng thái</th><th></th></tr></thead><tbody data-my-classes></tbody></table></div></div></section>
+<section data-dashboard-panel="recovery" hidden><div class="metric-grid"><div class="metric"><div class="value">6</div><span>Recovery Credits còn lại</span></div><div class="metric"><div class="value" data-recovery-count>0</div><span>Khung giờ đã đặt</span></div></div><div class="panel"><div class="panel-head"><h3>Lịch Recovery</h3><a class="btn small" href="recovery.html#booking">Đặt khung giờ</a></div><div class="data-table-wrap"><table class="data-table"><thead><tr><th>Ngày</th><th>Giờ</th><th>Dịch vụ</th><th>Trạng thái</th><th></th></tr></thead><tbody data-my-recovery></tbody></table></div></div></section>
+<section data-dashboard-panel="events" hidden><div class="panel"><div class="panel-head"><h3>Hoạt động cộng đồng</h3><a class="btn small" href="community.html">Xem hoạt động</a></div><div class="data-table-wrap"><table class="data-table"><thead><tr><th>Ngày</th><th>Hoạt động</th><th>Loại</th><th>Trạng thái</th></tr></thead><tbody data-my-events></tbody></table></div></div></section>
+</div></section>
+
+  </main>
+  <div data-site-footer></div>
+  <script src="assets/js/site-data.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

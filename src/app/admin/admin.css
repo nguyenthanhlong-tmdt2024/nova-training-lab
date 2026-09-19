@@ -1,0 +1,21 @@
+.admin-inline-form {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 330px;
+}
+
+.admin-inline-form input[type="number"] { width: 82px; }
+.admin-inline-form select { min-width: 120px; }
+.dashboard-nav form { margin: 0; }
+.dashboard-nav form button { width: 100%; }
+.panel-head form { display: flex; align-items: center; gap: 8px; }
+.form-message {
+  border: 1px solid #4d6b15;
+  background: #10170c;
+  color: var(--lime);
+  border-radius: 12px;
+  padding: 11px 14px;
+  margin-bottom: 18px;
+}
+.form-message.error { border-color: #74343b; background: #1a0f0f; color: #ff8794; }
